@@ -1,7 +1,7 @@
 # image-to-string
 Best auto image to text for windows
 
-Installation:npm init -y && npm i tesseract.js fs child_process timers/promises
+Installation:npm init -y && npm i tesseract.js fs child_process
 ```js
 var Tesseract = require('tesseract.js'), fs = require('fs'), exec = require('child_process').exec, spawn = require('child_process').spawn, setTimeout = require('timers/promises').setTimeout;
 async function start() {
