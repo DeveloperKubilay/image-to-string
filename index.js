@@ -22,7 +22,7 @@ async function start() {
    text = text.split("&gt;").join(">").split("&lt;").join("<").split("&amp;").join("&")
    await fs.writeFileSync("text.txt", text);
    exec("start text.txt")
-   await fs.writeFileSync("codetext.txt", beautify(text,{indent_size: 0, space_in_empty_paren: true})); 
+   await fs.writeFileSync("codetext.txt", beautify(text,{indent_size: 0})); 
    exec("start codetext.txt")
    await setTimeout(1000);
    process.exit(0);
