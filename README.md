@@ -1,7 +1,7 @@
 # image-to-string
 Best auto image to text for windows
 
-Installation:`npm init -y && npm i puppeteer fs child_process js-beautify`
+Installation:```npm init -y && npm i puppeteer fs child_process js-beautify```
 ```js
 var exec = require('child_process').exec
 fs = require('fs')
