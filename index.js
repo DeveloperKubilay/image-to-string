@@ -8,7 +8,7 @@ async function start() {
     await exec(`Add-Type -AssemblyName System.Windows.Forms;[System.Drawing.Bitmap][System.Windows.Forms.Clipboard]::GetDataObject().getimage().Save('${__dirname + "\\image.png"}' , [System.Drawing.Imaging.ImageFormat]::Png)`, { 'shell': 'powershell.exe' })
     await setTimeout(2000)
     try { await fs.readFileSync("./image.png"); console.log("Please wait") } catch { console.log("Not found text"); process.exit(1); }
-    const browser = await puppeteer.launch({headless: false});
+    const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await page.goto("https://images.google.com",{waitUntil: 'load',timeout: 0});
     await page.waitForSelector('div > div > div > div:nth-child(10)');
