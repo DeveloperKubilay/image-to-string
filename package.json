@@ -1,0 +1,24 @@
+{
+  "name": "image-to-string",
+  "version": "1.0.0",
+  "description": "Best auto image to text for windows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeveloperKubilay/image-to-string.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DeveloperKubilay/image-to-string/issues"
+  },
+  "homepage": "https://github.com/DeveloperKubilay/image-to-string#readme",
+  "dependencies": {
+    "puppeteer": "^24.10.0"
+  }
+}
