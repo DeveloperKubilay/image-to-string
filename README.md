@@ -1,6 +1,6 @@
 # image-to-string ⚠️💀
 
-> This module is **DISABLED** now! Don't waste your time tryna get it working! ❌
+> This module is **DEPRECATED** now! Don't waste your time tryna get it working! ❌
 
 Best auto image to text for windows that *used to be* working but now it's straight up broken. 📸➡️📝
 
